@@ -44,6 +44,7 @@ text-align: center;
 color:white;
 margin-top:40px;
 font-family: "Great Vibes", cursive;
+
 }
 
 
@@ -114,11 +115,9 @@ margin: 4% 10%;
 
 
 
-
-
  .fulldata .single-todo .todo-delete button{
 
- margin-top: 10%;
+margin-top: 25%;
     margin-left:60%;
  
     

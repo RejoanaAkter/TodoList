@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './daily.css'
-import {BsStars} from 'react-icons/bs'
+
+import { GoChecklist} from 'react-icons/go'
 import { RiDeleteBin6Line } from "react-icons/ri";
 
 const List = () => {
@@ -42,10 +43,10 @@ setArray(todos)
 <div className="cover">
     <div className="black-shadow-cover">
     <div  className="todo-app">
-  <h1  className="todo-header"><BsStars  style={{color:"lightblue"}}/>Todo-App <BsStars  style={{color:"lightblue"}}/>  </h1>
+  <h1  className="todo-header">Todo-App<GoChecklist style={{color:"cadetblue",marginLeft:"2%", fontSize:"25px"}}/> </h1>
   <h3  style={{fontFamily:"great Vibes",color:"lightblue", textAlign:"center"}}>Mimi</h3>
   <div className="todo-form">
-<input className='data-input'   value={input} onChange={handleChange} />
+<input placeholder='Add your todos..'  className='data-input'   value={input} onChange={handleChange} />
 <button className='add-btn' onClick={handleClick}>add</button>
 
 
